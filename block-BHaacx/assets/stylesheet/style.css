@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #fa683e;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.1rem;
+  border: 1px solid black;
+}
+
+.item {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.item1 {
+  background-image: url(../media/home-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: span 2;
+  grid-row: span 350;
+  background-position: center;
+}
+
+.item2 {
+  background-color: #f5e3d8;
+  grid-column: span 2;
+  grid-row: span 350;
+}
+
+.item3 {
+  background-color: #ffffff;
+  grid-column: span 2;
+  grid-row: span 100;
+}
+
+.item4 {
+  background-color: #ecaf4f;
+  grid-column: span 2;
+  grid-row: span 100;
+}
+
+.item5 {
+  background-color: #ecaf4f;
+  grid-row: span 100;
+}
+
+.item6 {
+  background-color: #fa683e;
+  grid-row: span 100;
+}
+
+.item7 {
+  grid-row: span 100;
+  background-color: black;
+}
+
+.item8 {
+  grid-row: span 100;
+  background-color: #ffffff;
+}
+
+.item9 {
+  grid-column: span 2;
+  grid-row: span 100;
+}
+
+.item10 {
+  grid-column: span 2;
+  grid-row: span 100;
+}
+
+.item11 {
+  grid-column: span 2;
+  grid-row: span 120;
+}
+
+.item12 {
+  grid-column: span 2;
+  grid-row: span 120;
+}
+
+.item13, .item14 {
+  grid-column: span 2;
+  grid-row: span 120;
+}
+
+.item15 {
+  grid-column: span 4;
+  grid-row: span 120;
+}
+/*# sourceMappingURL=style.css.map */
